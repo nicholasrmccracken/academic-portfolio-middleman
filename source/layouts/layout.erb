@@ -6,11 +6,19 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <title><%= current_page.data.title %></title>
+    <link rel="stylesheet" href="stylesheets/site.css">
   </head>
   <body>
-    <%= yield %>
+    <nav>
+      <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/research">Research</a></li>
+        <li><a href="/publications">Publications</a></li>
+      </ul>
+    </nav>
+    <div>
+      <%= yield %>
+    </div>
   </body>
 </html>

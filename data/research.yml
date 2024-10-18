@@ -1,0 +1,93 @@
+publications:
+  - title: "PolicyClusterGCN: Identifying Efficient Clusters for Training Graph Convolutional Networks"
+    authors: "Saket Gurukar, Shaileshh Bojja Venkatakrishnan, Balaraman Ravindran, Srinivasan Parthasarathy"
+    conference: "ASONAM 2023"
+
+  - title: "Blockchain Bandits: Optimizing Mining Rewards in Proof-of-Work Network Games"
+    authors: "Arti Vedula, Abhishek Gupta, Shaileshh Bojja Venkatakrishnan"
+    conference: "ICBC 2023"
+
+  - title: "Goldfish: Peer Selection using Matrix Completion in Unstructured P2P Network"
+    authors: "Bowen Xue, Yifan Mao, Shaileshh Bojja Venkatakrishnan, Sreeram Kannan"
+    conference: "ICBC 2023"
+    note: "Nominated for best paper"
+
+  - title: "Kadabra: Adapting Kademlia for the Decentralized Web"
+    authors: "Yunqi Zhang, Shaileshh Bojja Venkatakrishnan"
+    conference: "FC 2023"
+
+  - title: "DecVi: Adaptive Video Conferencing on Open Peer-to-Peer Networks"
+    authors: "Jingren Wei, Shaileshh Bojja Venkatakrishnan"
+    conference: "ICDCN workshop, 2023"
+
+  - title: "Less is More: Fairness in Wide-Area Proof-of-Work Blockchain Networks"
+    authors: "Yifan Mao, Shaileshh Bojja Venkatakrishnan"
+    status: "Preprint"
+    conference: "CESC 2022"
+
+  - title: "The Effect of Network Topology on Credit Network Throughput"
+    authors: "Vibhaalakshmi Sivaraman, Weizhao Tang, Shaileshh Bojja Venkatakrishnan, Giulia Fanti, Mohammad Alizadeh"
+    conference: "Performance 2021"
+
+  - title: "Perigee: Efficient Peer-to-Peer Network Design for Blockchains"
+    authors: "Yifan Mao, Soubhik Deb, Shaileshh Bojja Venkatakrishnan, Sreeram Kannan, Kannan Srinivasan"
+    conference: "PODC 2020"
+
+  - title: "High Throughput Cryptocurrency Routing in Payment Channel Networks"
+    authors: "Vibhaalakshmi Sivaraman, Shaileshh Bojja Venkatakrishnan, Kathleen Ruan, Parimarjan Negi, Lei Yang, Radhika Mittal, Giulia Fanti, Mohammad Alizadeh"
+    conference: "NSDI 2020"
+
+  - title: "Learning Generalizable Device Placement Algorithms for Distributed Machine Learning"
+    authors: "Ravichandra Addanki, Shaileshh Bojja Venkatakrishnan, Shreyan Gupta, Hongzi Mao, Mohammad Alizadeh"
+    conference: "NeurIPS 2019"
+
+  - title: "Park: An Open Platform for Learning-Augmented Computer Systems"
+    authors: "Hongzi Mao, Parimarjan Negi, Akshay Narayan, Hanrui Wang, Jiacheng Yang, Haonan Wang, Ryan Marcus, Ravichandra Addanki, Mehrdad Khani, Songtao He, Vikram Nathan, Frank Cangialosi, Shaileshh Bojja Venkatakrishnan, Wei-Hung Weng, Song Han, Tim Kraska, Mohammad Alizadeh"
+    conference: "NeurIPS 2019"
+
+  - title: "Variance Reduction for Reinforcement Learning in Input-Driven Environments"
+    authors: "Hongzi Mao, Shaileshh Bojja Venkatakrishnan, Malte Schwarzkopf, Mohammad Alizadeh"
+    conference: "ICLR 2019"
+
+  - title: "Learning Scheduling Algorithms for Data Processing Clusters"
+    authors: "Hongzi Mao, Malte Schwarzkopf, Shaileshh Bojja Venkatakrishnan, Zili Meng, Mohammad Alizadeh"
+    conference: "ACM Sigcomm 2019"
+
+  - title: "Dandelion++: Lightweight Cryptocurrency Networking with Formal Anonymity Guarantees"
+    authors: "Giulia Fanti, Shaileshh Bojja Venkatakrishnan, Surya Bakshi, Bradley Denby, Shruti Bhargava, Andrew Miller, Pramod Viswanath"
+    conference: "ACM Sigmetrics 2018"
+
+  - title: "Dandelion: Redesigning the Bitcoin Network for Anonymity"
+    authors: "Shaileshh Bojja Venkatakrishnan, Giulia Fanti, Pramod Viswanath"
+    conference: "ACM Sigmetrics 2017"
+
+  - title: "Costly Circuits, Submodular Schedules: Hybrid Switch Scheduling for Data Centers"
+    authors: "Shaileshh Bojja Venkatakrishnan, Mohammad Alizadeh, Pramod Viswanath"
+    conference: 
+      - "ACM Sigmetrics 2016"
+      - "Queuing Systems 2017"
+
+  - title: "Information Complexity Density and Simulation of Protocols"
+    authors: "Himanshu Tyagi, Shaileshh Venkatakrishnan, Pramod Viswanath, Shun Watanabe"
+    conference: 
+      - "Innovations in Theoretical Computer Science (ITCS) 2015"
+      - "IEEE Transactions on Information Theory 2017"
+
+  - title: "Deterministic Near-Optimal P2P Streaming"
+    authors: "Shaileshh Bojja Venkatakrishnan, Pramod Viswanath"
+    conference: "ACM Sigmetrics 2015"
+
+  - title: "Degrees of Freedom for Multiple Multicast Traffic"
+    authors: "Shaileshh Bojja Venkatakrishnan, Sreeram Kannan, Pramod Viswanath"
+    conference: "International Symposium on Information Theory (ISIT) 2014"
+
+dissertations_reports:
+  - title: "Algorithms for Interactive, Distributed and Networked Systems"
+    type: "Ph.D. dissertation"
+    institution: "UIUC"
+    date: "May 2016"
+
+  - title: "An Interference Alignment Scheme for Multiple Multicast Traffic"
+    type: "Master's Thesis"
+    institution: "UIUC"
+    date: "May 2014"

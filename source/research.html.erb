@@ -1,0 +1,30 @@
+---
+title: Research
+---
+
+<h1>Research</h1>
+
+<section id="publications">
+    <h2>Peer-Reviewed Publications</h2>
+    <ul>
+        <% data.research.publications.each do |pub| %>
+        <li>
+            <strong><%= pub.title %></strong><br>
+            <em>Authors:</em> <%= pub.authors %><br>
+            <em>Conference:</em> <%= pub.conference %>
+        </li>
+        <% end %>
+    </ul>
+</section>
+
+<section id="dissertations">
+    <h2>Dissertations & Reports</h2>
+    <ul>
+        <% data.research.dissertations_reports.each do |dissertation| %>
+        <li>
+            <strong><%= dissertation.title %></strong><br>
+            <em>Type:</em> <%= dissertation.type %> - <%= dissertation.institution %>, <%= dissertation.date %>
+        </li>
+        <% end %>
+    </ul>
+</section>

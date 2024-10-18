@@ -2,3 +2,27 @@
 title: News
 ---
 
+<h1>News</h1>
+
+<section id="articles">
+<h2>Articles on Dandelion</h2>
+<ul>
+    <% data.service.articles.each do |article| %>
+    <li>
+        <a href="<%= article.url %>"><%= article.name %></a>
+    </li>
+    <% end %>
+</ul>
+</section>
+
+<section id="tpc-roles">
+    <h2>TPC Member Roles</h2>
+    <% data.service.tpc_roles.each do |tpc| %>
+        <h3><%= tpc.year %></h3>
+        <ul>
+            <% tpc.roles.each do |role| %>
+                <li><%= role %></li>
+            <% end %>
+        </ul>
+    <% end %>
+</section>

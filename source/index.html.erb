@@ -1,45 +1,25 @@
 ---
 title: Home
+stylesheet: "stylesheets/pages/index.css"
 ---
-<html>
-  <head>
-    <title><%= current_page.data.title %></title>
-    <link rel="stylesheet" href="stylesheets/index.css">
-  </head>
-  <body>
-    <h1>
-      Shaileshh Bojja Venkatakrishnan
-    </h1>
-    <div>
-      <nav>
-        <menu>
-          <li><a href="/research.html">Research</a></li>
-          <li><a href="/publications.html">Publications</a></li>
-          <li><a href="/teaching.html">Teaching</a></li>
-        </menu>   
-      </nav>
-    <div class ="content">
-      <div class="user_info">
-        <h2>
-          Bio
-        </h2>
-        <p>
-          <%= File.read('source/content/bio.md') %>
-        </p>
-      </div>
-      <div class="communication">
-        <h2>
-          Contact info
-        </h2>
-        <p>
-          hello world (picture here?)
-        </p>
-      </div>
-    </div>
-    <footer>
-      A cans project group production
-    </footer>
-  </body>
-</html>
 
-
+<h1>
+  Shaileshh Bojja Venkatakrishnan
+</h1>
+<div class ="content">
+  <div class="user_info">
+    <h2>
+      Bio
+    </h2>
+    <p>
+      <%= File.read('source/content/bio.md') %>
+    </p>
+</div>
+<div class="communication">
+    <h2>
+      Contact info
+    </h2>
+    <p>
+      hello world (picture here?)
+    </p>
+</div>

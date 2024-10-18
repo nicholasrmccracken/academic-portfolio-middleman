@@ -9,3 +9,5 @@ gem 'wdm', '~> 0.1', platforms: %i[mswin mingw x64_mingw]
 gem 'middleman-livereload', '~> 3.4'
 
 gem 'rubocop', '~> 1.66', require: false
+
+gem "mdl", "~> 0.13.0"

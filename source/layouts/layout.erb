@@ -5,14 +5,34 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
-    <link rel="stylesheet" href="stylesheets/site.css">
+    <title><%= current_page.data.title || "My Site" %></title>
+
+    <link rel="stylesheet" href="/stylesheets/site.css">
+    
+    <!-- Use the stylesheet from a page's frontmatter if it has one -->
+    <% if current_page.data.stylesheet %>
+      <link rel="stylesheet" href="/<%= current_page.data.stylesheet %>">
+    <% end %>
   </head>
   <body>
-    
-    <div>
+    <nav class="navbar">
+      <img src="/images/osu-logo.svg" alt="The Ohio State University Logo">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/publications.html">Publications</a></li>
+        <li><a href="/teaching.html">Teaching</a></li>
+        <li><a href="/news.html">News</a></li>
+      </ul>   
+    </nav>
+
+    <main>
       <%= yield %>
-    </div>
+    </main>
+
+    <footer class="footer">
+      A Team CANS production.
+    </footer>
   </body>
 </html>

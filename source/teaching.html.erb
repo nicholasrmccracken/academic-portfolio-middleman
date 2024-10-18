@@ -2,3 +2,24 @@
 title: Teaching
 ---
 
+<h1>Teaching</h1>
+
+<% data.teaching.semesters.each do |semester, courses| %>
+    <section id="<%= semester.parameterize %>">
+        <h2><%= semester %></h2>
+        <ul>
+        <% courses.each do |course| %>
+            <li><%= course.name %></li>
+        <% end %>
+        </ul>
+    </section>
+<% end %>
+
+<section id="students">
+    <h2>Students</h2>
+    <ul>
+        <% data.teaching.students.each do |student| %>
+            <li><%= student.name %></li>
+        <% end %>
+    </ul>
+</section>

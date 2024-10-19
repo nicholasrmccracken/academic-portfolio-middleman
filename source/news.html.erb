@@ -2,17 +2,18 @@
 title: News
 ---
 
+<div class="news-container">
 <h1>News</h1>
 
 <section id="articles">
-<h2>Articles on Dandelion</h2>
-<ul>
-    <% data.service.articles.each do |article| %>
-    <li>
-        <a href="<%= article.url %>"><%= article.name %></a>
-    </li>
-    <% end %>
-</ul>
+    <h2>Articles on Dandelion</h2>
+    <ul>
+        <% data.service.articles.each do |article| %>
+        <li>
+            <a href="<%= article.url %>"><%= article.name %></a>
+        </li>
+        <% end %>
+    </ul>
 </section>
 
 <section id="tpc-roles">
@@ -26,3 +27,4 @@ title: News
         </ul>
     <% end %>
 </section>
+</div>

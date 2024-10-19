@@ -91,3 +91,22 @@ dissertations_reports:
     type: "Master's Thesis"
     institution: "UIUC"
     date: "May 2014"
+
+students:
+  - name: Yifan Mao
+    degree: Ph.D.
+
+  - name: Yunqi Zhang
+    degree: Ph.D.
+
+  - name: Jingren Wei
+    degree: Ph.D.
+
+  - name: Arti Vedula
+    degree: Ph.D., co-advised with  Prof. Abhishek  Gupta
+
+  - name: Patrick Yang
+    degree: M.S.
+
+  - name: Mel Gunawardena
+    degree: B.S.

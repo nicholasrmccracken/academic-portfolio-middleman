@@ -46,6 +46,7 @@ h2 {
 .communication {
   padding: 20px;
   width: 35%;
+  min-height: 70%; 
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -53,10 +54,10 @@ h2 {
   
 }
 
-.communication img {
-  max-width: 100%;
+.user_info img {
+  width: 200px;
   height: auto;
-  display: block;
+  display: left;
   margin: 10px 0;
 }
 

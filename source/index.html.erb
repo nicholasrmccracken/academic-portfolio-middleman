@@ -7,20 +7,28 @@ stylesheet: "stylesheets/pages/index.css"
   Shaileshh Bojja Venkatakrishnan
 </h1>
 <div class ="content">
-  <div class="user_info">
-    <h2>
-      Bio
-    </h2>
-    <p>
-      <%= File.read('source/content/bio.md') %>
-    </p>
+  <div class ="left-column">
+    <div class="user_info">
+      <h2>
+        Bio
+      </h2>
+      <p>
+        <%= File.read('source/content/bio.md') %>
+      </p>
+    </div>
+    <div class = "notice">
+      <h2>
+        Heads up
+      </h2>
+    </div>
   </div>
-</div>
-<div class="communication">
+  <div class="communication">
     <h2>
       Contact info
     </h2>
+    <img src="images/headshot.jpg" alt="headshot">
     <p>
       hello world (picture here?)
     </p>
+  </div>
 </div>

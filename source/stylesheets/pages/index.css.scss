@@ -49,6 +49,7 @@ p {
 
 // Bio Section
 .user_info p {
+  text-align: left;
   font-size: 18px;
   line-height: 1.8;
   color: #444;
@@ -70,6 +71,8 @@ p {
 }
 
 .notice {
+  display: flex;
+  flex-direction: column;
   background-color: #fdfdfd;
   padding: 20px;
   margin-top: 20px;

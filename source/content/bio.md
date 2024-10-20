@@ -1,5 +1,3 @@
-# bio
-
 <p>
 I am an assistant professor in the computer science and engineering department at the Ohio State University. I am broadly interested in designing
 intelligent data-driven algorithms for current and emerging networking and distributed systems. In particular, I am interested in fundamental

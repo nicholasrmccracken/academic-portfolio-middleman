@@ -1,0 +1,42 @@
+---
+title: Research Publications
+stylesheet: "stylesheets/pages/content.css"
+---
+
+<div class="content-container">
+<h1>Research</h1>
+
+<h2>Publications</h2>
+<ul>
+    <% first_dandelion = true %>
+    <% data.research.publications.each_with_index do |publication, index| %>
+        <li>
+            <% if publication.url.present? %>
+                <a href="<%= publication.url %>">
+                    <% if publication.title.start_with?('Dandelion') && first_dandelion %>
+                            <h3 id="dandelion"><%= publication.title %></h3>
+                            <% first_dandelion = false %>
+                    <% else %>
+                        <h3><%= publication.title %></h3>
+                    <% end %>
+                </a>
+            <% else %>
+                <% if publication.title.start_with?('Dandelion') && first_dandelion %>
+                    <h3 id="dandelion"><%= publication.title %></h3>
+                    <% first_dandelion = false %>
+                <% else %>
+                    <h3><%= publication.title %></h3>
+                <% end %>
+            <% end %>
+
+            <p><em>Authors:</em> <%= publication.authors %></p>
+            <p><em>Conference:</em> <%= publication.conference %></p>
+
+            <% if publication.note.present? %>
+                <p><strong><%= publication.note %></strong></p>
+            <% end %>
+        </li>
+    <% end %>
+</ul>
+
+</div>

@@ -58,4 +58,47 @@
   a:visited {
     color: inherit;
   }
+
+  .dropdown {
+    position: relative;
+    display: in-line block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    background-color: $white;
+    min-width: 120px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+
+  .dropdown-content a:hover {
+    background-color: $light-gray; /* Optional: adjust as needed */
+    color: $scarlet;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropbtn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+  }
+
 }

@@ -44,6 +44,8 @@ h2 {
 }
 
 .communication {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   width: 35%;
   min-height: 70%; 
@@ -54,11 +56,16 @@ h2 {
   
 }
 
-.user_info img {
+.communication img {
   width: 200px;
   height: auto;
-  display: left;
+  align-self: center;
   margin: 10px 0;
 }
+
+.contact_info {
+  text-align: center;
+}
+
 
 

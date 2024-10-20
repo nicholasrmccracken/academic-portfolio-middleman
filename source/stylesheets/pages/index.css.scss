@@ -1,11 +1,15 @@
 @import '../partials/variables';
 
+
 h1 {
   background-color: $scarlet;
   color: #ffffff;
   padding: 20px;
   width: 100%;
   text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
 }
 
 h2 {
@@ -16,7 +20,16 @@ h2 {
   float: left;
   margin: 10px;
   border-radius: 5px;
+  font-family: 'Times New Roman', serif;
+  font-size: 1.8rem;
 }
+
+p {
+  font-family: 'Times New Roman', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 
 .content {
   display: flex;
@@ -37,6 +50,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
   margin: 10px 0;
+  font-family: 'Times New Roman', serif;
 }
 
 .notice {
@@ -53,6 +67,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
   margin: 10px;
+  font-family: 'Times New Roman', serif;
   
 }
 

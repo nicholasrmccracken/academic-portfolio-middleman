@@ -7,7 +7,7 @@ stylesheet: "stylesheets/pages/content.css"
 <h1>News</h1>
 
 <h2>Articles on <a href="research.html#dandelion">Dandelion</a></h2>
-<ul>
+<ul class="outside_link">
     <% data.service.articles.each do |article| %>
         <li>
             <% if article.url.present? %>

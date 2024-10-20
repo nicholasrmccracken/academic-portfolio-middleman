@@ -1,33 +1,33 @@
 articles:
-  - name: "CyberScoop"
+  - title: "CyberScoop"
     url: "https://cyberscoop.com/researchers-redesign-bitcoin-anonymity-u-s-law-enforcement-hires-specialists/"
 
-  - name: "Bitcoin"
+  - title: "Bitcoin"
     url: "https://news.bitcoin.com/dandelion-bitcoin-anonymize-transaction-broadcasts/"
 
-  - name: "Oodlestechnologies"
+  - title: "Oodlestechnologies"
     url: "https://www.oodlestechnologies.com/blogs/Bitcoin-To-Get-More-Anonymous-With-The-New-BIP-Called-Dandelion/"
     
-  - name: "Wired"
+  - title: "Wired"
     url: "https://www.wired.com/story/harry-pottery-cryptocurrency-privacy-zcash-monero/"
 
 tpc_roles:
+  - year: "2024"
+    roles:
+      - "TPC Member ITC"
+
   - year: "2023"
     roles:
-      - "TPC member Sigmetrics '23"
+      - "TPC Member Sigmetrics"
 
   - year: "2022"
     roles:
-      - "Organized Workshop on Blockchains and Networking, Sigmetrics '22"
-      - "TPC member Sigmetrics '22"
-      - "TPC member ICBC '22"
-      - "TPC member Mobihoc '22"
+      - "Organized Workshop on Blockchains and Networking, Sigmetrics"
+      - "TPC Member Sigmetrics"
+      - "TPC Member ICBC"
+      - "TPC Member Mobihoc"
 
   - year: "2021"
     roles:
-      - "TPC member Sigmetrics '21"
-      - "TPC member Workshop on Decentralising the Internet with IPFS and Filecoin (DI2F) (part of IFIP Networking '21)"
-
-  - year: "2034"
-    roles:
-      - "TPC member ITC '34"
+      - "TPC Member Sigmetrics"
+      - "TPC Member Workshop on Decentralising the Internet with IPFS and Filecoin (DI2F) (part of IFIP Networking)"

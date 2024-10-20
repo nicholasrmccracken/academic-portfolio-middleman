@@ -1,19 +1,23 @@
 ---
 title: Teaching
-stylesheet: "stylesheets/pages/teaching.css"
+stylesheet: "stylesheets/pages/content.css"
 ---
 
-<div class="course-container">
+<div class="content-container">
 <h1>Teaching</h1>
 
-<% data.teaching.courses.each do |course| %>
-    <section>
+<ul>
+<% data.teaching.courses.each_with_index do |course, i| %>
+    <li>
         <a class="course-name" href="<%= course.url %>">
             <h3><%= course.name %></h3>
         </a>
-        <p><strong>Semesters Taught: </strong><%= course.semesters %></p>
+        <p><em>Semesters Taught:</em> <%= course.semesters %></p>
         <p><%= course.description %></p>
-    </section>
-    <hr>
+    </li>
+    <% unless i == data.teaching.courses.size - 1 %>
+        <hr>
+    <% end %>
 <% end %>
+</ul>
 </div>

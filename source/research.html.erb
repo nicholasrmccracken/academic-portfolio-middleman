@@ -1,41 +1,77 @@
 ---
 title: Research
+stylesheet: "stylesheets/pages/content.css"
 ---
 
-<div class="research-container">
+<div class="content-container">
 <h1>Research</h1>
 
-<section id="publications">
-    <h2>Publications</h2>
-    <ul>
-        <% data.research.publications.each do |pub| %>
-            <li>
-                <strong><%= pub.title %></strong><br>
-                <em>Authors:</em> <%= pub.authors %><br>
-                <em>Conference:</em> <%= pub.conference %>
-            </li>
-        <% end %>
-    </ul>
-</section>
+<h2>Publications</h2>
+<ul>
+    <% first_dandelion = true %>
+    <% data.research.publications.each_with_index do |publication, index| %>
+        <li>
+            <% if publication.url.present? %>
+                <a href="<%= publication.url %>">
+                    <% if publication.title.start_with?('Dandelion') && first_dandelion %>
+                            <h3 id="dandelion"><%= publication.title %></h3>
+                            <% first_dandelion = false %>
+                    <% else %>
+                        <h3><%= publication.title %></h3>
+                    <% end %>
+                </a>
+            <% else %>
+                <% if publication.title.start_with?('Dandelion') && first_dandelion %>
+                    <h3 id="dandelion"><%= publication.title %></h3>
+                    <% first_dandelion = false %>
+                <% else %>
+                    <h3><%= publication.title %></h3>
+                <% end %>
+            <% end %>
 
-<section id="dissertations">
-    <h2>Dissertations & Reports</h2>
-    <ul>
-        <% data.research.dissertations_reports.each do |dissertation| %>
-            <li>
-                <strong><%= dissertation.title %></strong><br>
-                <em>Type:</em> <%= dissertation.type %> - <%= dissertation.institution %>, <%= dissertation.date %>
-            </li>
-        <% end %>
-    </ul>
-</section>
+            <p><em>Authors:</em> <%= publication.authors %></p>
+            <p><em>Conference:</em> <%= publication.conference %></p>
 
-<section id="students">
-    <h2>Students</h2>
-    <ul>
-        <% data.research.students.each do |student| %>
-            <li><%= student.name %> (<%= student.degree %>)</li>
-        <% end %>
-    </ul>
-</section>
+            <% if publication.note.present? %>
+                <p><strong><%= publication.note %></strong></p>
+            <% end %>
+        </li>
+    <% end %>
+</ul>
+<hr>
+
+<h2>Dissertations & Reports</h2>
+<ul>
+    <% data.research.dissertations_reports.each do |dissertation| %>
+        <li>
+            <% if dissertation.url.present? %>
+                <a href="<%= dissertation.url %>">
+                    <h3><%= dissertation.title %></h3>
+                </a>
+            <% else %>
+                <h3><%= dissertation.title %></h3>
+            <% end %>
+
+            <p><%= dissertation.type %> - <%= dissertation.institution %>, <%= dissertation.date %></p>
+        </li>
+    <% end %>
+</ul>
+<hr>
+
+<h2>Students</h2>
+<ul>
+    <% data.research.students.each do |student| %>
+        <li>
+            <% if student.url.present? %>
+                <a href="<%= student.url %>">
+                    <%= student.name %>
+                </a>
+            <% else %>
+                <%= student.name %>
+            <% end %>
+
+             (<%= student.degree %>)
+        </li>
+    <% end %>
+</ul>
 </div>

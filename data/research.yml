@@ -4,90 +4,105 @@ publications:
     conference: "ASONAM 2023"
 
   - title: "Blockchain Bandits: Optimizing Mining Rewards in Proof-of-Work Network Games"
+    url: "https://ieeexplore.ieee.org/document/10174933"
     authors: "Arti Vedula, Abhishek Gupta, Shaileshh Bojja Venkatakrishnan"
     conference: "ICBC 2023"
 
   - title: "Goldfish: Peer Selection using Matrix Completion in Unstructured P2P Network"
+    url: "https://ieeexplore.ieee.org/document/10174871"
     authors: "Bowen Xue, Yifan Mao, Shaileshh Bojja Venkatakrishnan, Sreeram Kannan"
     conference: "ICBC 2023"
-    note: "Nominated for best paper"
+    note: "Nominated for Best Paper"
 
   - title: "Kadabra: Adapting Kademlia for the Decentralized Web"
+    url: "https://arxiv.org/abs/2210.12858"
     authors: "Yunqi Zhang, Shaileshh Bojja Venkatakrishnan"
     conference: "FC 2023"
 
   - title: "DecVi: Adaptive Video Conferencing on Open Peer-to-Peer Networks"
+    url: "https://arxiv.org/pdf/2209.00695"
     authors: "Jingren Wei, Shaileshh Bojja Venkatakrishnan"
     conference: "ICDCN workshop, 2023"
 
   - title: "Less is More: Fairness in Wide-Area Proof-of-Work Blockchain Networks"
+    url: "https://arxiv.org/pdf/2204.02461"
     authors: "Yifan Mao, Shaileshh Bojja Venkatakrishnan"
-    status: "Preprint"
     conference: "CESC 2022"
 
   - title: "The Effect of Network Topology on Credit Network Throughput"
+    url: "https://arxiv.org/pdf/2103.03288"
     authors: "Vibhaalakshmi Sivaraman, Weizhao Tang, Shaileshh Bojja Venkatakrishnan, Giulia Fanti, Mohammad Alizadeh"
     conference: "Performance 2021"
 
   - title: "Perigee: Efficient Peer-to-Peer Network Design for Blockchains"
+    url: "https://drive.google.com/file/d/1ChBypxj0ry5-rAMpN9RodC4JDZ5GdQv4/view"
     authors: "Yifan Mao, Soubhik Deb, Shaileshh Bojja Venkatakrishnan, Sreeram Kannan, Kannan Srinivasan"
     conference: "PODC 2020"
 
   - title: "High Throughput Cryptocurrency Routing in Payment Channel Networks"
+    url: "https://www.usenix.org/system/files/nsdi20-paper-sivaraman.pdf"
     authors: "Vibhaalakshmi Sivaraman, Shaileshh Bojja Venkatakrishnan, Kathleen Ruan, Parimarjan Negi, Lei Yang, Radhika Mittal, Giulia Fanti, Mohammad Alizadeh"
     conference: "NSDI 2020"
 
   - title: "Learning Generalizable Device Placement Algorithms for Distributed Machine Learning"
+    url: "https://proceedings.neurips.cc/paper_files/paper/2019/file/71560ce98c8250ce57a6a970c9991a5f-Paper.pdf"
     authors: "Ravichandra Addanki, Shaileshh Bojja Venkatakrishnan, Shreyan Gupta, Hongzi Mao, Mohammad Alizadeh"
     conference: "NeurIPS 2019"
 
   - title: "Park: An Open Platform for Learning-Augmented Computer Systems"
+    url: "https://proceedings.neurips.cc/paper_files/paper/2019/file/f69e505b08403ad2298b9f262659929a-Paper.pdf"
     authors: "Hongzi Mao, Parimarjan Negi, Akshay Narayan, Hanrui Wang, Jiacheng Yang, Haonan Wang, Ryan Marcus, Ravichandra Addanki, Mehrdad Khani, Songtao He, Vikram Nathan, Frank Cangialosi, Shaileshh Bojja Venkatakrishnan, Wei-Hung Weng, Song Han, Tim Kraska, Mohammad Alizadeh"
     conference: "NeurIPS 2019"
 
   - title: "Variance Reduction for Reinforcement Learning in Input-Driven Environments"
+    url: "https://openreview.net/pdf?id=Hyg1G2AqtQ"
     authors: "Hongzi Mao, Shaileshh Bojja Venkatakrishnan, Malte Schwarzkopf, Mohammad Alizadeh"
     conference: "ICLR 2019"
 
   - title: "Learning Scheduling Algorithms for Data Processing Clusters"
+    url: "https://dl.acm.org/doi/pdf/10.1145/3341302.3342080"
     authors: "Hongzi Mao, Malte Schwarzkopf, Shaileshh Bojja Venkatakrishnan, Zili Meng, Mohammad Alizadeh"
     conference: "ACM Sigcomm 2019"
 
   - title: "Dandelion++: Lightweight Cryptocurrency Networking with Formal Anonymity Guarantees"
+    url: "https://dl.acm.org/doi/pdf/10.1145/3224424"
     authors: "Giulia Fanti, Shaileshh Bojja Venkatakrishnan, Surya Bakshi, Bradley Denby, Shruti Bhargava, Andrew Miller, Pramod Viswanath"
     conference: "ACM Sigmetrics 2018"
 
   - title: "Dandelion: Redesigning the Bitcoin Network for Anonymity"
+    url: "https://dl.acm.org/doi/pdf/10.1145/3084459"
     authors: "Shaileshh Bojja Venkatakrishnan, Giulia Fanti, Pramod Viswanath"
     conference: "ACM Sigmetrics 2017"
 
   - title: "Costly Circuits, Submodular Schedules: Hybrid Switch Scheduling for Data Centers"
+    url: "https://dl.acm.org/doi/pdf/10.1145/2896377.2901479"
     authors: "Shaileshh Bojja Venkatakrishnan, Mohammad Alizadeh, Pramod Viswanath"
-    conference: 
-      - "ACM Sigmetrics 2016"
-      - "Queuing Systems 2017"
+    conference: "ACM Sigmetrics 2016, Queuing Systems 2017"
 
   - title: "Information Complexity Density and Simulation of Protocols"
+    url: "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzaGFpbGVzaGhidnxneDoxYWFhNGM3NWVlZGY5Yzkz"
     authors: "Himanshu Tyagi, Shaileshh Venkatakrishnan, Pramod Viswanath, Shun Watanabe"
-    conference: 
-      - "Innovations in Theoretical Computer Science (ITCS) 2015"
-      - "IEEE Transactions on Information Theory 2017"
+    conference: "Innovations in Theoretical Computer Science (ITCS) 2015, IEEE Transactions on Information Theory 2017"
 
   - title: "Deterministic Near-Optimal P2P Streaming"
+    url: "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzaGFpbGVzaGhidnxneDo1ZmI3MDQ1ZjY5NDUxYzAy"
     authors: "Shaileshh Bojja Venkatakrishnan, Pramod Viswanath"
     conference: "ACM Sigmetrics 2015"
 
   - title: "Degrees of Freedom for Multiple Multicast Traffic"
+    url: "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzaGFpbGVzaGhidnxneDo2MzQwM2NlNjYzN2RkYmEx"
     authors: "Shaileshh Bojja Venkatakrishnan, Sreeram Kannan, Pramod Viswanath"
     conference: "International Symposium on Information Theory (ISIT) 2014"
 
 dissertations_reports:
   - title: "Algorithms for Interactive, Distributed and Networked Systems"
-    type: "Ph.D. dissertation"
+    url: "https://www.ideals.illinois.edu/bitstream/handle/2142/98367/BOJJAVENKATAKRISHNAN-DISSERTATION-2017.pdf?sequence=1&isAllowed=y"
+    type: "Ph.D. Dissertation"
     institution: "UIUC"
     date: "May 2016"
 
   - title: "An Interference Alignment Scheme for Multiple Multicast Traffic"
+    url: "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzaGFpbGVzaGhidnxneDo1YmY2MWI5NWVmOTIyZjY"
     type: "Master's Thesis"
     institution: "UIUC"
     date: "May 2014"
@@ -97,6 +112,7 @@ students:
     degree: Ph.D.
 
   - name: Yunqi Zhang
+    url: "https://yunqiz.com/"
     degree: Ph.D.
 
   - name: Jingren Wei

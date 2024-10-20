@@ -7,8 +7,7 @@ questions at the networking layer of blockchains and emerging large scale decent
 peer-to-peer networks and information theory.  
 
 Prior to my current position I was a postdoc in the networks and mobile systems group at MIT, where I worked on exciting problems in the
-intersection of network systems, algorithms and theory. I received my PhD from the University of Illinois Urbana-Champaign (UIUC) in 2017. I did
-my bachelor's degree at the Indian Institute of Technology Madras in 2012. During the summer of 2016 I interned at Google, where I worked on
+intersection of network systems, algorithms and theory. I received my PhD from the University of Illinois Urbana-Champaign (UIUC) in 2017. I did my bachelor's degree at the Indian Institute of Technology Madras in 2012. During the summer of 2016 I interned at Google, where I worked on
 congestion control in Google's data center networks. I was a recipient of the Joan and Lalit Bahl fellowship at UIUC.
 
 Meet Dr. Shaileshh Bojja Venkarakrishnan, an assistant professor in the Computer Science and Engineering department at Ohio State University. Dr. Bojja is broadly interested in designing intelligent data-driven algorithms for current and emerging networking and distributed systems.

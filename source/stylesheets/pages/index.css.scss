@@ -18,7 +18,8 @@ h2 {
   color: #ffffff;
   padding: 10px;
   float: left;
-  margin: 10px;
+  margin: 10px auto;
+  text-align: center;
   border-radius: 5px;
   font-family: 'Times New Roman', serif;
   font-size: 1.8rem;
@@ -50,7 +51,6 @@ p {
 
 // Bio Section
 .user_info p {
-  text-align: left;
   font-size: 18px;
   line-height: 1.8;
   color: #444;
@@ -83,8 +83,6 @@ p {
 }
 
 .notice {
-  display: flex;
-  flex-direction: column;
   background-color: #fdfdfd;
   padding: 20px;
   margin-top: 20px;
@@ -127,6 +125,10 @@ p {
 
 .contact_info a {
   text-decoration: none;
+  color: rgb(65, 62, 62); 
+}
+
+.contact_info a:visited {
   color: rgb(204, 80, 80); 
 }
 

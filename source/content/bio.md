@@ -1,6 +1,7 @@
-# Bio
+# bio
 
-<!-- I am an assistant professor in the computer science and engineering department at the Ohio State University. I am broadly interested in designing
+<p>
+I am an assistant professor in the computer science and engineering department at the Ohio State University. I am broadly interested in designing
 intelligent data-driven algorithms for current and emerging networking and distributed systems. In particular, I am interested in fundamental
 questions at the networking layer of blockchains and emerging large scale decentralized applications. I enjoy problems that warrant
 'first-principles' thinking. Some of the other topics I have worked on in the past include scheduling algorithms for data center networks,

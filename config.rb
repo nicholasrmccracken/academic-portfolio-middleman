@@ -46,3 +46,5 @@ page '/*.txt', layout: false
 # end
 
 activate :livereload
+
+page "/404.html", directory_index: false

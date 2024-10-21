@@ -8,8 +8,6 @@ This project is a personal website for Dr. Shaileshh Bojja Venkatakrishnan, an A
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 

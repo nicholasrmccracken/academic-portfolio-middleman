@@ -6,7 +6,7 @@ stylesheet: "stylesheets/pages/content.css"
 <div class="content-container">
 <h1>Teaching</h1>
 
-<ul>
+<ul class="outside_link">
 <% data.teaching.courses.each_with_index do |course, i| %>
     <li>
         <a class="course-name" href="<%= course.url %>">

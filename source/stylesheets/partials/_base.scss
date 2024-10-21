@@ -8,7 +8,7 @@ h1, h2 {
 }
 
 // Adjust links globally
-a {
+.outside_link a {
     color: $scarlet; // Default link color
     text-decoration: none; // Remove underline
     &:hover {

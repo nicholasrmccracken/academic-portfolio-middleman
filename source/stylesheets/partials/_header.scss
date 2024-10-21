@@ -1,0 +1,175 @@
+@import 'variables';
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  top: 0;
+
+  #header {
+    background-color: $light-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+
+    #headshot {
+      width: 85px;
+      height: auto;
+      border: 2px solid $scarlet;
+      border-radius: 5px;
+    }
+
+    #personal-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      gap: 7.5px;
+
+      h3 {
+        color: $scarlet;
+        font-size: 22px;
+      }
+
+      p:nth-child(2) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  nav {
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+
+    #logo {
+      width: 25%;
+      height: auto;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: nowrap;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: $white; 
+        display: none; 
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 100; 
+      }
+
+      &.active {
+        display: block;
+      }
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 40px;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $scarlet;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: $scarlet;
+        transition: width .3s;
+      }
+
+      &:hover::before {
+        text-decoration: none;
+        width: 100%;
+      }
+
+      &.active {
+        color: $scarlet;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+    
+    a:visited {
+      color: inherit;
+    }
+
+    @media (max-width: 768px) {
+      padding: 10px; 
+
+      ul {
+        flex-direction: column; 
+      }
+
+      li {
+        margin-left: 0; 
+        padding: 10px 0; 
+      }
+    }
+
+    .dropdown {
+      position: relative;
+      display: in-line block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: -15px;
+      background-color: $white;
+      min-width: 120px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: $black;
+      padding: 10px 10px;
+      text-decoration: none;
+      display: block;
+      font-size: 15px;
+    }
+
+    .dropdown-content a:hover {
+      background-color: $light-gray;
+      color: $scarlet;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropbtn {
+      background: none;
+      border: none;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0;
+    }
+  }
+}

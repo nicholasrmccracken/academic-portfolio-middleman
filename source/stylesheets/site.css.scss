@@ -46,14 +46,17 @@ h1, h2 {
 }
 
 a {
-  color: $scarlet;
+  color: $buckeye-leaf-green;
   text-decoration: none;
   
+  &:visited {
+    color: $scarlet;
+  }
+  
   &:hover {
-    text-decoration: underline;
-    color: rgb(102, 11, 11);
+    color: $dark-red;
   }
 }
 
-@import 'partials/navbar';
+@import 'partials/header';
 @import 'partials/footer';

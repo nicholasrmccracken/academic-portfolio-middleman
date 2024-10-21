@@ -24,26 +24,36 @@
     <% end %>
   </head>
   <body>
-    <nav class="navbar">
-      <img src="/images/osu-logo.svg" alt="The Ohio State University Logo">
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li>
-          <div class="dropdown">
-            <button class="dropbtn">Research
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="research.html#publications">Publications</a> 
-              <a href="/research.html#dissertations">Dissertations</a> 
-              <a href="research.html#students">Students</a>
+    <header>
+      <div id="header">
+        <img id="headshot" src="../images/headshot.jpg" alt="headshot">
+        <div id="personal-info">
+          <h3>Shaileshh Bojja Venkatakrishnan</h3>
+          <p>Assistant Professor for the Department of Computer Science and Engineering @ <em>The Ohio State University</em></p>
+          <p>Specialized in the networking layer of blockchains and emerging large scale decentralized applications.</p>
+        </div>
+      </div>
+      <nav>
+        <img id="logo" src="/images/osu-logo.svg" alt="The Ohio State University Logo">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Research
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="research.html#publications">Publications</a> 
+                <a href="/research.html#dissertations">Dissertations</a> 
+                <a href="research.html#students">Students</a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li><a href="/teaching.html">Teaching</a></li>
-        <li><a href="/news.html">News</a></li>
-      </ul>   
-    </nav>
+          </li>
+          <li><a href="/teaching.html">Teaching</a></li>
+          <li><a href="/news.html">News</a></li>
+        </ul>   
+      </nav>
+    </header>
 
     <main>
       <%= yield %>

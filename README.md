@@ -1,4 +1,4 @@
-# Personal Website for Dr. Shaileshh Bojja Venkatakrishnan
+# Static Web Design
 
 This project is a personal website for Dr. Shaileshh Bojja Venkatakrishnan, an Assistant Professor in the Department of Computer Science and Engineering at Ohio State University. The website showcases his biography, research interests, and contact information, serving as a platform for prospective students and collaborators to learn more about his work and connect.
 

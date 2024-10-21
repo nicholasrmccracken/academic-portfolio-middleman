@@ -3,34 +3,24 @@ title: Home
 stylesheet: "stylesheets/pages/index.css"
 ---
 
-<h1>
-  Shaileshh Bojja Venkatakrishnan
-</h1>
+<h1>Shaileshh Bojja Venkatakrishnan</h1>
+
 <div class ="content">
   <div class ="left-column">
     <div class="user_info">
-      <h2>
-          Biography
-      </h2>
-      <p>
-        <%= File.read('source/content/bio.md') %>
-      </p>
-
-      
+      <h2>Biography</h2>
+      <p><%= File.read('source/content/bio.md') %></p> 
     </div>
+
     <div class = "notice">
-      <h2>
-        Heads up: Note for Prospective Grad Students
-      </h2>
-      <p>
-        <%= File.read('source/content/notice.md') %>
-      </p>
+      <h2>Heads Up: Note for Prospective Grad Students</h2>
+      <p><%= File.read('source/content/notice.md') %></p>
     </div>
   </div>
+
   <div class="communication">
-    <h2>
-      Contact info
-    </h2>
+    <h2>Contact Info</h2>
+
     <div class="contact_info">
       <ul class="outside_link">
         <li>Assistant Professor</li>
@@ -40,6 +30,7 @@ stylesheet: "stylesheets/pages/index.css"
         <li><a href="https://scholar.google.com/citations?user=9wLpwbsAAAAJ&hl=en">Google Scholar</a></li>
       </ul>
     </div>
-      <img src="images/headshot.jpg" alt="headshot">
+
+    <img src="images/headshot.jpg" alt="headshot">
   </div>
 </div>

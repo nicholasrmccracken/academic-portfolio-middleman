@@ -7,16 +7,17 @@ stylesheet: "stylesheets/pages/content.css"
 <h1>News</h1>
 
 <h2>Articles on <a href="research.html#dandelion">Dandelion</a></h2>
-<ul class="outside_link">
-    <% data.service.articles.each do |article| %>
+<ul>
+    <% data.news.articles.each do |article| %>
         <li>
             <% if article.url.present? %>
                 <a href="<%= article.url %>">
-                    <%= article.title %>
+                    <h3><%= article.title %></h3>
                 </a>
             <% else %>
-                <%= article.title %>
+                <h3><%= article.title %></h3>
             <% end %>
+             <%= article.site %>
         </li>
     <% end %>
 </ul>
@@ -24,7 +25,7 @@ stylesheet: "stylesheets/pages/content.css"
 
 <h2>TPC Member Roles</h2>
 <ul>
-    <% data.service.tpc_roles.each do |tpc| %>
+    <% data.news.tpc_roles.each do |tpc| %>
         <li>
             <h3><%= tpc.year %></h3>
             <ul>

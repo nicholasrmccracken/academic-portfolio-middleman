@@ -1,3 +1,5 @@
+@import 'partials/variables';
+
 * {
   margin: 0;
   padding: 0;
@@ -39,9 +41,19 @@ input {
   background-color: inherit;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+a {
+  color: $scarlet;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+    color: rgb(102, 11, 11);
+  }
+}
 
 @import 'partials/navbar';
 @import 'partials/footer';
-@import 'partials/variables';
-@import 'partials/base';
-

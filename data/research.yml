@@ -119,7 +119,8 @@ students:
     degree: Ph.D.
 
   - name: Arti Vedula
-    degree: Ph.D., co-advised with  Prof. Abhishek  Gupta
+    degree: Ph.D.
+    note: Co-advised w/ Prof. Abhishek Gupta
 
   - name: Patrick Yang
     degree: M.S.

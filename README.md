@@ -70,6 +70,10 @@ Chris:
 
 
 Aysha:
+- Formatted footer with copyright, credits, and contact information
+- Created navigation bar drop-down menu for Research 
+   - Styled drop-down features like button and content
+   - Created separate pages for publications, dissertations & reports, and students 
 
 Sanju:
 - Created custom 404 error page for better error handling

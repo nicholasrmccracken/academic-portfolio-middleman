@@ -72,5 +72,14 @@ Chris:
 Aysha:
 
 Sanju:
+- Created custom 404 error page for better error handling
+- Customized and enhaced navbar to include:
+    - Dropdown, transitions, responsive behavior and hovering feature
+    - Active link indicator
+- Styled the index (home) page
+    - Added drop shadows, rounded corners, left borders
+    - Reformatted fonts, sizing and centering
+- Added base styling and defined global styles
+- Created README with instructions/usage/description
 
 Nicholas:

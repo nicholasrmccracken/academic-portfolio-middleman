@@ -44,7 +44,7 @@ Ensure you have Ruby and Bundler installed. Then run:
 
 Start the development server with:
 
-    middleman server
+   bundle exec middleman server
 
 4. **Access the website:**:
 
@@ -53,7 +53,6 @@ Open your web browser and navigate to http://localhost:4567
 ## Usage
 
 - To add new content, edit the `.md` files in the `source/content` directory.
-
 
 ## Error Handling
 
@@ -70,4 +69,3 @@ Aysha:
 Sanju:
 
 Nicholas:
-

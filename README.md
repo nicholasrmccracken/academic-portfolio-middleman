@@ -52,8 +52,6 @@ Open your web browser and navigate to http://localhost:4567
 ## Usage
 
 - To add new content, edit the `.md` files in the `source/content` directory.
-- Update site metadata in `data/metadata.yml`.
-- Use Sass files in the `stylesheets` directory to customize the site's styling.
 
 
 ## Error Handling

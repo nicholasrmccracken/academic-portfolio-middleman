@@ -4,8 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Shaileshh Bojja Venkatakrishnan" %></title>
@@ -15,6 +14,13 @@
     <!-- Use the stylesheet from a page's frontmatter if it has one -->
     <% if current_page.data.stylesheet %>
       <link rel="stylesheet" href="/<%= current_page.data.stylesheet %>">
+    <% end %>
+
+    <!-- Use any additional stylesheet from a page's frontmatter -->
+    <% if current_page.data.additional_stylesheets %>
+      <% current_page.data.additional_stylesheets.each do |stylesheet| %>
+        <link rel="stylesheet" href="<%= stylesheet %>">
+      <% end %>
     <% end %>
   </head>
   <body>
@@ -28,9 +34,9 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="/research_publications.html">Publications</a> 
-              <a href="/research_dissertation.html">Dissertations</a> 
-              <a href="/research_students.html">Students</a>
+              <a href="research.html#publications">Publications</a> 
+              <a href="/research.html#dissertations">Dissertations</a> 
+              <a href="research.html#students">Students</a>
             </div>
           </div>
         </li>
@@ -44,12 +50,10 @@
     </main>
 
     <footer class="footer">
-
       Shaileshh Bojja Venkatakrishnan <br>
       <a href= "mailto: bojjavenkatakrishnan.2@osu.edu">bojjavenkatakrishnan.2@osu.edu</a> <br><br>
 
-      Created by Team CANS.  © The Ohio State University
-
+      Created by Team CANS © The Ohio State University
     </footer>
   </body>
 </html>

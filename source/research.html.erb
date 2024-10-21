@@ -1,12 +1,14 @@
 ---
 title: Research
 stylesheet: "stylesheets/pages/content.css"
+additional_stylesheets:
+    - "stylesheets/pages/students.css"
 ---
 
 <div class="content-container">
 <h1>Research</h1>
 
-<h2>Publications</h2>
+<h2 id="publications">Publications</h2>
 <ul class="outside_link">
     <% first_dandelion = true %>
     <% data.research.publications.each_with_index do |publication, index| %>
@@ -40,7 +42,7 @@ stylesheet: "stylesheets/pages/content.css"
 </ul>
 <hr>
 
-<h2>Dissertations & Reports</h2>
+<h2 id="dissertations">Dissertations & Reports</h2>
 <ul>
     <% data.research.dissertations_reports.each do |dissertation| %>
         <li>
@@ -58,20 +60,35 @@ stylesheet: "stylesheets/pages/content.css"
 </ul>
 <hr>
 
-<h2>Students</h2>
-<ul>
-    <% data.research.students.each do |student| %>
-        <li>
-            <% if student.url.present? %>
-                <a href="<%= student.url %>">
-                    <%= student.name %>
-                </a>
-            <% else %>
-                <%= student.name %>
-            <% end %>
-
-             (<%= student.degree %>)
-        </li>
-    <% end %>
-</ul>
+<h2 id="students">Students</h2>
+<table id="students-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% data.research.students.each do |student| %>
+            <tr>
+                <td>
+                    <% if student.url.present? %>
+                        <a href="<%= student.url %>">
+                            <%= student.name %>
+                        </a>
+                    <% else %>
+                        <%= student.name %>
+                    <% end %>
+                </td>
+                <td><%= student.degree %></td>
+                <td>
+                <% if student.note.present? %>
+                    <%= student.note %>
+                <% end %>
+            </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
 </div>

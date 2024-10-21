@@ -43,6 +43,7 @@ Ensure you have Ruby and Bundler installed. Then run:
 3. **Run the middleman server**:
 
 Start the development server with:
+
     middleman server
 
 4. **Access the website:**:

@@ -61,12 +61,12 @@ The website implements basic error handling to enhance user experience:
 ## Contributions
 
 Chris:
-    - Created initial file structure with main style sheets and individual pages connected through hyperlinks
-    - Formatted homepage with box structure and unique headings
-        - Boxes: Biography, Contact Info, and Announcements
-        - Styled homepage to bind announcements to bottom of the page, and let contact info to grow in height. This allows for additional information to be added to both bio and contact info without the need to resize.
-        - Created markdown file for bio and announcement text
-    - Styled external links for cohesivity and to fit the theme
+- Created initial file structure with main style sheets and individual pages connected through hyperlinks
+- Formatted homepage with box structure and unique headings
+    - Boxes: Biography, Contact Info, and Announcements
+    - Styled homepage to bind announcements to bottom of the page, and let contact info to grow in height. This allows for additional information to be added to both bio and contact info without the need to resize.
+    - Created markdown file for bio and announcement text
+- Styled external links for cohesivity and to fit the theme
 
 
 Aysha:
